@@ -23,6 +23,7 @@ int main()
     sockAddr.sin_family = PF_INET;
     sockAddr.sin_addr.s_addr = inet_addr("127.0.0.1");
     sockAddr.sin_port = htons(1234);
+    
     char bufSend[BUF_SIZE] = {0};
     char bufRecv[BUF_SIZE] = {0};
 
