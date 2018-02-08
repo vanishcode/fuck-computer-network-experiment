@@ -1,4 +1,4 @@
-// 流式套接字接收边长数据
+// 流式套接字接收变长数据
 
 #include <stdio.h>
 #include <string.h>
